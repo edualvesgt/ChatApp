@@ -1,0 +1,46 @@
+.home {
+    background-color: #0E242E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .container {
+        border: 1px solid #D9D9D9;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+
+        .sidebar {
+            flex: 1;
+            background-color: #D9D9D9   ;
+        }
+        .navbar{
+            color: #D9D9D9;
+            display: flex;
+            align-items: center;
+            background-color: #0E242E;
+            height: 10%;
+            padding: 10px;
+            justify-content: space-between;
+
+            .logo{
+                font-weight: bold;
+            }
+            button{
+                margin-left: 10px;
+                background-color: #D9D9D9;
+                color: #0E242E;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        }
+
+        .chat {
+            flex: 2;
+        }
+    }
+}
