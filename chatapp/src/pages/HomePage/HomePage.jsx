@@ -11,6 +11,7 @@ const HomePage = () => {
             <div className="container">
                 <SideBar/>
                 <Chat/>
+                
             </div>
         </div>
        
