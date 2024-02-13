@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import RegisterPage from '../pages/RegisterPage/RegisterPage';
 import HomePage from '../pages/HomePage/HomePage';
-import { RegisterPage } from '../pages/RegisterPage/RegisterPage';
 import { LoginPage } from '../pages/LoginPage/LoginPage';
 // Import any other pages you have here
 
